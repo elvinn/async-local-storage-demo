@@ -1,0 +1,19 @@
+{
+  "name": "async-local-storage-demo",
+  "version": "1.0.0",
+  "description": "asyncLocalStorage usage in logger",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "asyncLocalStorage",
+    "logger"
+  ],
+  "author": "elvinn",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "uuid": "^8.3.2"
+  }
+}
