@@ -11,7 +11,6 @@ app.use(async ctx => {
   await sleep(1);
   logger.info('waiting 2');
   await sleep(1);
-  logger.info('waiting 3');
 
   ctx.body = 'Hello World';
 });
